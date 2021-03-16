@@ -1,0 +1,2 @@
+# verifikasi-order
+curl -X POST https://api.test.paysafe.com/accountmanagement/v1/accounts/1001384520/credits \ -u devcentre322:B-qa2-0-53625f86-302c021476f52bdc9deab7aea876bb28762e62f92fc6712d0214736abf501e9675e55940e83ef77f5c304edc7968 \ -H 'Content-Type: application/json' \   -d ' {     "amount": 500,     "merchantRefNum": "ORDER_ID:1231",     "detail":"Charging 1004509410 a fee",     "linkedAccount":"1004509410" }'
